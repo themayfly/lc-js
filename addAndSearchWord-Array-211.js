@@ -11,10 +11,12 @@ var WordDictionary = function() {
 * @return {void}
 */
 WordDictionary.prototype.addWord = function(word) {
-if (this.list.indexOf(word) === -1) {
-    this.list.push(word)
-}
+  if (this.list.indexOf(word) === -1) {
+      this.list.push(word)
+  }
 };
+
+
 
 /**
 * Returns if the word is in the data structure. A word could contain the dot character '.' to represent any one letter.
